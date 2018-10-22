@@ -1,1 +1,127 @@
 /* Write your CSS code in this file */
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  background-color: #262626;
+  text-align: center;
+}
+
+.content {
+  width: 100vw;
+  height: 80vh;
+  background-color: #0047b3;
+}
+
+.startButton {
+  width: 100vw;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.guessContainer {
+  width: 310px;
+  height: 75px;
+  border-radius: 5px;
+  background-color: #404040;
+  margin: 0 auto;
+}
+
+.guessContainerButtons {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.userGuessContainer {
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #404040;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.userGuess {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+input {
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.guessContainerButtonText {
+  margin-top: 3px;
+}
+
+.hintContainer {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hint {
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.guesses {
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.guess {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 3px;
+  margin-top: 11px;
+}
+
+.buttonText {
+  margin-top: 0px;
+  padding-top: 8px;
+}
+
+h1 {
+  color: #bfbfbf;
+  padding-top: 48px;
+  margin-top: 0px;
+}
+
+p {
+  color: #bfbfbf;
+  padding-bottom: 10px;
+}
